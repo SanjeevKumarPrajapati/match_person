@@ -10,7 +10,6 @@ This project uses **semantic embeddings** and **vector similarity search** to ha
 👉 **Try it here:**  
 [https://your-streamlit-app-link.streamlit.app](https://matchperson-name.streamlit.app/)
 
-*(Replace this link with your actual Streamlit deployment URL)*
 
 ---
 
