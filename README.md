@@ -8,7 +8,7 @@ This project uses **semantic embeddings** and **vector similarity search** to ha
 ## 🚀 Live Demo
 
 👉 **Try it here:**  
-[https://your-streamlit-app-link.streamlit.app](https://matchperson-name.streamlit.app/)
+[Live Demo](https://matchperson-name.streamlit.app/)
 
 
 ---
