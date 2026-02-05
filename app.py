@@ -1,5 +1,5 @@
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 import streamlit as st
 
@@ -24,7 +24,7 @@ names_dataset = [
 documents=[Document(page_content=i) for i in names_dataset]
 
 #creating a vector store  where we store all the document embeddings
-vector_store=FAISS.from_documents(documents,embedding)
+vector_store=Chroma.from_documents(documents,embedding)
 
 #UI Code
 st.title("Name Matching System")
